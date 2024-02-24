@@ -66,10 +66,9 @@ public class hanoiTowers {
                     break;
                 }
             }
-            }
 //        );
 //        delay.play();
-            delay.setOnFinished(event -> {
+//            delay.setOnFinished(event -> {
             hT(n - 1, que, to, from);
 //        });
 //        delay.play();
